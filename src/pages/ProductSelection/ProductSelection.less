@@ -1,0 +1,135 @@
+.content{
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+    .contentList{
+        width:100%;
+        height:100%;
+        background:#fff url(../../assets/menuBack.png) no-repeat;
+        background-position:40px 90%;
+        padding:26px 30px 30px 30px;
+    }
+    .searchModule{
+        margin-bottom: 28px;
+    }
+    .listModule{
+        background: #fff;
+        overflow-x: hidden;
+        overflow-y: auto;
+        .noProducts{
+            width: 100%;
+            text-align: center;
+            margin-top: 180px;
+        }
+        .productOnce{
+            width:100%;
+            height:120px;
+            border: 1px solid #CBD9FF;
+            border-bottom: 5px solid #CBD9FF;
+            border-radius: 4px;
+            -moz-box-shadow:0px 0px 4px -1px #CBD9FF;
+            -webkit-box-shadow:0px 0px 4px -1px #CBD9FF;
+            box-shadow:0px 0px 4px -1px #CBD9FF;
+            padding: 12px;
+            cursor: pointer;
+            .itemContnet{
+                position: relative;
+                top: 50%; /*偏移*/
+                transform: translateY(-50%);
+                .onceName{
+                    width: 100%;
+                    height: 24px;
+                    line-height: 24px;
+                    text-align: center;
+                    .productName{
+                        position: relative;
+                        display:inline-block;
+                        max-width: 100%;
+                        color:#333333;
+                        font-size: 15px;
+                        font-weight: 600;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        margin: 0;
+                    }
+                }
+                .onceId{
+                    width: 100%;
+                    color:#999999;
+                    font-size: 13px;
+                    text-align: center;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin: 12px 0 0 0;
+                }
+            }
+        }
+        .productOnce:hover{
+            border: 1px solid #85a5ff;
+            border-bottom: 5px solid #85a5ff;
+            -moz-box-shadow:0px 0px 4px -1px #85a5ff;
+            -webkit-box-shadow:0px 0px 4px -1px #85a5ff;
+            box-shadow:0px 0px 4px -1px #85a5ff;
+            .onceName{
+                .productName{
+                    color:#85a5ff;
+                }
+            }
+            .onceId{
+                color:#85a5ff;
+            }
+        }
+        .clickedOnce{
+            border: 1px solid #85a5ff;
+            border-bottom: 5px solid #85a5ff;
+            -moz-box-shadow:0px 0px 4px -1px #85a5ff;
+            -webkit-box-shadow:0px 0px 4px -1px #85a5ff;
+            box-shadow:0px 0px 4px -1px #85a5ff;
+            .productName{
+                padding-left: 20px;
+                color:#85a5ff!important;
+                .sign{
+                    position: absolute;
+                    left:0;
+                    top:6px;
+                    display:block;
+                    width: 14px;
+                    height: 14px;
+                    text-align: center;
+                    line-height: 8px;
+                    background:rgba(80,124,241,0.3);
+                    border-radius: 50%;
+                    span{
+                        display: inline-block;
+                        width:6px;
+                        height:6px;
+                        background: #507CF1;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            .onceId{
+                color:#85a5ff!important;
+            }
+        }
+        :global{
+            .ant-col{
+                width:20%;
+                padding-left: 16px!important;
+                padding-right: 16px!important;
+                margin-bottom: 32px;
+            }
+            .ant-list-item{
+                margin-bottom:0;
+            }
+        }
+    }
+    .pageModule{
+        width:100%;
+        text-align: center;
+        margin-top: 30px;
+        background: #fff;
+    }
+}    

@@ -1,0 +1,170 @@
+.addBox{
+    width:100%;
+    padding:20px 40px;
+    .categoryBox{
+        position: relative;
+        width:100%;
+    }
+    .addFirst{
+        display: block;
+        position: absolute;
+        left:0;
+        top:7px;
+        width:20px;
+        height:20px;
+        font-size: 12px;
+        font-weight: 600;
+        color:#507CF1;
+        text-align: center;
+        line-height: 19px;
+        background-color: #EAF0FF;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 500;
+    }
+    .firstVerticalBox{
+        position: absolute;
+        top:16px;
+        left:10px;
+        width: 1px;
+        height: 100%;
+        z-index: 100;
+        span{
+            display: block;
+            width: 1px;
+            height: 100%;
+            border-left:1px dashed #85a5ff;
+        }
+    }
+    .addFirst:hover{
+        background-color: #e6f7ff;
+    }
+    .firstBox{
+        position: relative;
+        width:100%;
+        padding-left: 90px;
+    }
+    .addSecond{
+        position: absolute;
+        left:68px;
+        top:9px;
+        font-size: 15px;
+        font-weight: 800;
+        color:#507CF1;
+        background-color: #fff;
+        cursor: pointer;
+        z-index: 400;
+    }
+    .addSecond:hover{
+        color:#85a5ff;
+    }
+    .firstHorizontal{
+        display: block;
+        position: absolute;
+        top:16px;
+        left:10px;
+        width:66px;
+        border-top:1px dashed #507CF1;
+        z-index: 100;
+    }
+    .secondBox{
+        position: relative;
+        width:100%;
+        padding-left: 40px;
+    }
+    .onceHorizontal{
+        display: block;
+        position: absolute;
+        top:-35px;
+        left:-14px;
+        width: 1px;
+        height: 50px;
+        border-left-width: 1px;
+        border-left-style: dashed;
+        z-index: 100;
+    }
+    .secondVerticalBox{
+        position: absolute;
+        top:15px;
+        left:-14px;
+        width: 1px;
+        height: 100%;
+        z-index: 100;
+        span{
+            display: block;
+            width: 1px;
+            height: 100%;
+            border-left:1px dashed #85a5ff;
+        }
+    }
+    .addThird{
+        position: absolute;
+        left:18px;
+        top:9px;
+        font-size: 15px;
+        font-weight: 800;
+        color:#507CF1;
+        background-color: #fff;
+        cursor: pointer;
+        z-index: 400;
+    }
+    .addThird:hover{
+        color:#85a5ff;
+    }
+    .secondHorizontal{
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: -14px;
+        width: 38px;
+        border-top:1px dashed #85a5ff;
+        z-index: 100;
+    }
+    .thirdBox{
+        position: relative;
+        width:100%;
+        padding-left: 40px;
+    }
+    .thirdVerticalBox{
+        position: absolute;
+        top:16px;
+        left:-14px;
+        width: 1px;
+        height: 100%;
+        z-index: 100;
+        span{
+            display: block;
+            width: 1px;
+            height: 100%;
+            border-left:1px dashed #C4D4FF;
+        }
+    }
+    .thirdHorizontal{
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: -13px;
+        width: 48px;
+        border-top:1px dashed #C4D4FF;
+        z-index: 100;
+    }
+    :global{
+        .ant-form-item{
+            margin-bottom: 18px;
+        }
+        .ant-form-item-label{
+            color:#333333;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 13px;
+            padding: 0;
+        }
+        .ant-form-item-control{
+            line-height: 32px;
+        }
+        .ant-form-item-label > label::after{
+            display: none;
+        }
+    }
+}

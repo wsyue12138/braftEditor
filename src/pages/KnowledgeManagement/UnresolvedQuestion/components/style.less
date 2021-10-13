@@ -1,0 +1,82 @@
+.addBox{
+    width:100%;
+    padding: 20px 40px;
+}    
+.popoverTitle{
+    display: block;
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.popoverContent{
+    max-width:350px;
+    line-height: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 0;
+}
+.popoverAnswer{
+    max-width:350px;
+    line-height: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.singleSimilar{
+    width:100%;
+    .searchContent{
+        width:100%;
+        padding: 20px 30px;
+        .searchOnce{
+            padding-right:12px; 
+            :global{
+                .ant-form-inline .ant-form-item{
+                    width:100%;
+                }
+                .ant-form-item-control-wrapper{
+                    width:100%;
+                }
+            }
+        }
+        :global{
+            .ant-form-item-label{
+                color:#333333;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 32px;
+            }
+            .ant-form-item-control{
+                line-height: 32px;
+            }
+        }
+    }
+    .tableContent{
+        width:100%;
+        .contentTxt{
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        :global{
+            .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+                padding: 12px;
+            }
+        }
+    }
+    .pageContent{
+        width: 100%;
+        text-align: center;
+        margin: 50px 0 20px 0;
+    }
+}
+.rowDisabled{
+    background: #F5F5F5;
+}
+.regionName{
+    display: block;
+    width:'100%';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

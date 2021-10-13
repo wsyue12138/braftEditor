@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="367px" height="195px" viewBox="0 0 367 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>分组 8@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="200知识库数据分析-copy" transform="translate(-715.000000, -312.000000)">
+            <g id="分组-8" transform="translate(715.000000, 308.000000)">
+                <rect id="矩形" fill="#DCDCDC" transform="translate(64.500000, 181.000000) rotate(-90.000000) translate(-64.500000, -181.000000) " x="47" y="173" width="35" height="16" rx="2"></rect>
+                <path d="M130,197.258065 L130,175.741935 C130,175.332176 130.895431,175 132,175 L144,175 C145.104569,175 146,175.332176 146,175.741935 L146,197.258065 C146,197.667824 145.104569,198 144,198 L132,198 C130.895431,198 130,197.667824 130,197.258065 Z" id="矩形-copy-5" fill="#DCDCDC"></path>
+                <path d="M204,197.285714 L204,183.714286 C204,183.319797 204.895431,183 206,183 L218,183 C219.104569,183 220,183.319797 220,183.714286 L220,197.285714 C220,197.680203 219.104569,198 218,198 L206,198 C204.895431,198 204,197.680203 204,197.285714 Z" id="矩形-copy-6" fill="#DCDCDC"></path>
+                <rect id="矩形-copy-7" fill="#DCDCDC" transform="translate(286.500000, 191.000000) rotate(-90.000000) translate(-286.500000, -191.000000) " x="279" y="183" width="15" height="16" rx="2"></rect>
+                <rect id="矩形-copy-11" fill="#DCDCDC" transform="translate(359.000000, 185.000000) rotate(-90.000000) translate(-359.000000, -185.000000) " x="346" y="177" width="26" height="16" rx="2"></rect>
+                <text id="0" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="194">0</tspan>
+                </text>
+                <text id="10" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="0" y="13">10</tspan>
+                </text>
+                <text id="8" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="47">8</tspan>
+                </text>
+                <text id="6" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="84">6</tspan>
+                </text>
+                <text id="4" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="120">4</tspan>
+                </text>
+                <text id="2" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="157">2</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

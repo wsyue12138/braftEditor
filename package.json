@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "set PORT=8007&&umi dev",
+    "build": "umi build",
+    "test": "umi test",
+    "lint": "eslint {src,mock,tests}/**/*.{js,jsx} --fix",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "@antv/g2plot": "^1.1.14",
+    "@antv/g6": "^3.5.0",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "antd": "^3.19.5",
+    "events": "^3.3.0",
+    "dva": "^2.6.0-beta.6",
+    "echarts": "^4.7.0",
+    "echarts-for-react": "^2.0.15-beta.1",
+    "jquery": "^3.5.1",
+    "jsencrypt": "^3.0.0-rc.1",
+    "qs": "^6.9.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reconnecting-websocket": "^4.4.0",
+    "store": "^2.0.12",
+    "wangeditor": "^4.7.7",
+    "xss": "^1.0.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "emoji": "^0.3.2",
+    "eslint": "^5.4.0",
+    "eslint-config-umi": "^1.4.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "lint-staged": "^7.2.2",
+    "react-test-renderer": "^16.7.0",
+    "spark-md5": "^3.0.2",
+    "umi": "^2.7.7",
+    "umi-plugin-react": "^1.8.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

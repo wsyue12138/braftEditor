@@ -1,0 +1,143 @@
+.minMessageList{
+    width:100%;
+    height:65%;
+    background: #F4F4F4;
+    padding: 0 20px;
+    overflow-y: auto;
+}
+.maxMessageList{
+    width:100%;
+    height: 100%;
+    background: #F4F4F4;
+    padding: 0 20px;
+    overflow-y:auto;
+}
+.onceBox{
+    width:100%;
+    color:#8c8c8c;
+    font-size: 12px;
+    .customerService{
+        float: left;
+        width: 14px;
+        height: 16px;
+        background: url(../../../../assets/customerService.png) no-repeat;
+        background-size: 100% 100%;
+        margin-top: 2px;
+        margin-right: 8px;
+    }
+    .customer{
+        float: left;
+        width: 14px;
+        height: 14px;
+        background: url(../../../../assets/customer.png) no-repeat;
+        background-size: 100% 100%;
+        margin-top: 2px;
+        margin-right: 8px;
+    }
+    .onceContent{
+        font-size: 14px;
+        color:#333333;
+        line-height: 21px;
+        margin-top: 5px;
+    }
+    .imageBox{
+        width:100%;
+        margin: 8px 0 5px 0;
+        overflow: hidden;
+        .onceImage{
+            width: 100%;
+            height:100px;
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+            border-radius: 6px;
+            cursor:pointer;
+        }
+    }
+}
+.chatBox{
+    position: relative;
+    width:100%;
+    height:35%;
+    background: #FFFFFF;
+    .chatOperation{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:45px;
+        line-height: 52px;
+        overflow:hidden;
+        padding: 0 10px;
+        .imgUpload{
+            font-size:22px;
+            color:#8c8c8c;
+            margin-left:25px;
+            cursor:pointer;
+        }
+    }
+    .chatContent{
+        width:100%;
+        height: 100%;
+        padding-top: 45px;
+        .maxTextArea{
+            width:100%;
+            height: 100%;
+            border: 0;
+            resize:none;
+        }
+        .maxTextArea:focus {
+            border: none;
+            box-shadow: none;
+        }
+        .minTextArea{
+            width:100%;
+            height: 50%;
+            border: 0;
+            resize:none;
+        }
+        .minTextArea:focus {
+            border: none;
+            box-shadow: none;
+        }
+        .imageList{
+            width:100%;
+            height: 49%;
+            padding: 12px 12px 8px 12px;
+            border-top:1px solid #e8e8e8; 
+            .imageOnce{
+                position: relative;
+                width:100%;
+                height:100%;
+                .deleteIcon{
+                    position:absolute;
+                    right:-7px;
+                    top:-7px;
+                    font-size:18px;
+                    color:#507CF1;
+                    background:#FFFFFF;
+                    border-radius: 50%;
+                    cursor:pointer;
+                    z-index: 500;
+                }
+                .imageContent{
+                    width:100%;
+                    height:100%;
+                    background-repeat:no-repeat;
+                    background-position:center;
+                    background-size:cover;
+                    border-radius: 6px;
+                    cursor:pointer;
+                }
+            }
+            :global{
+                .ant-row{
+                    height: 100%;
+                }
+                .ant-col{
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

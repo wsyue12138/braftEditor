@@ -1,0 +1,61 @@
+.box{
+  width:100%;
+  height:100%;
+}
+:global{
+    #root{
+        width:100%;
+        height: 100%;
+        min-width: 1180px;
+    }
+    .selfModal{
+        width:350px!important;
+        .ant-modal-confirm-body > .anticon{
+            display:none;
+        }
+        .ant-modal-confirm-body{
+            text-align: center;
+        }
+        .ant-modal-body{
+            padding: 28px 28px 24px;
+        }
+        .ant-modal-confirm-btns{
+            width: 100%;
+            padding: 0 20px;
+        }
+        .ant-btn{
+            float:right;
+            width:95px;
+        }
+        .ant-btn-primary{
+            float:left;
+            background-color: #507CF1;
+            border-color:#507CF1;
+        }
+        .ant-btn-primary:hover, .ant-btn-primary:focus{
+            background-color:#85a5ff;
+            border-color: #85a5ff;
+        }
+    }
+    .ant-input[disabled]{
+        color:#333333;
+    }
+    .ant-select-disabled{
+        color:#333333;
+    }
+    .ant-table-thead > tr > th{
+        background: #F3F8FE;
+    }
+    .ant-table-column-title{
+        color:#888888!important;
+    }
+    .ant-table{
+        color:#333333;
+    }
+    .ant-cascader-menu{
+        height: auto;
+        min-height: 180px;
+        max-height: 330px;
+    }
+
+}

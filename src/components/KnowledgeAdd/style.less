@@ -1,0 +1,56 @@
+.addBox{
+    width:100%;
+    padding: 20px 40px;
+    .answerOnceBox{
+        position: relative;
+        .deleteAnswer{
+            position: absolute;
+            right: 10px;
+            top: 8px;
+            color:#f5222d;
+            cursor:pointer;
+            z-index: 200;
+        }
+    }
+    .add{
+        font-size: 12px;
+        color:#507CF1;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.add{
+    display: block;
+    width:100px;
+    font-size: 12px;
+    color:#507CF1;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.regionContent{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 21px;
+    padding-left: 60px;
+    z-index: 200;
+    ._tip{
+        position: absolute;
+        left: 60px;
+        top: 4px;
+        color:#ffc069
+    }
+    ._content{
+        display: inline-block;
+        max-width: 100%;
+        height: 21px;
+        color:#bfbfbf;
+        line-height: 21px;
+        white-space: nowrap;
+        padding-left: 25px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

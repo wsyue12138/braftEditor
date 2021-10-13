@@ -1,0 +1,31 @@
+@import "~antd/lib/style/themes/default.less";
+.basic-footer {
+    position: fixed;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    :global {
+          .ant-menu-dark {
+            .ant-menu-sub {
+              margin-left: -20px;
+            }
+          }
+          .ant-menu-submenu-arrow {
+            margin-right: 20px;
+          }
+          .ant-layout-sider-children {
+            width: 200px;
+            overflow-y: scroll;
+          }
+          .ant-dropdown {
+            .anticon {
+              margin-right: 5px;
+            }
+          }
+    }
+
+}

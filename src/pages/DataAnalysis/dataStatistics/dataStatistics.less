@@ -1,0 +1,212 @@
+.package {
+    position: relative;
+  .top_data {
+      position: absolute;
+      right:0;
+      top:-44px;
+      height: 35px;
+      line-height: 35px;
+      overflow: hidden;
+      .topOnce{
+          float:right;
+      }
+  }
+  .bottomTitle{
+      width:100%;
+      height:35px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 14px;
+      color:#333333;
+  }
+  .row {
+    display: flex;
+    margin-bottom: 16px;
+
+    .module {
+      border-radius: 8px;
+      // width:400px;
+      // height:169px;
+      box-sizing: border-box;
+      padding: 0 20px;
+      margin-right: 16px;
+
+      .moduleTitle {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 8px 10px 5px;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        align-items: center;
+
+        .swap_icon {
+          margin: 0 15px;
+        }
+      }
+
+      .moduleContent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 68px;
+        position: relative;
+
+        .all_item {
+          display: flex;
+          align-items: center;
+        }
+
+        .swap_item {
+          width: 49%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .new_item {
+          margin-left: 36px;
+        }
+
+        .big_font {
+          font-size: 36px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .color1 {
+      width: calc(~"26.4% - 16px");
+      background: linear-gradient(136deg, rgba(141, 127, 255, 1) 0%, rgba(140, 95, 226, 1) 100%);
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .color2 {
+      width: calc(~"24.8% - 16px");
+      background: linear-gradient(136deg, rgba(254, 164, 107, 1) 0%, rgba(226, 177, 95, 1) 100%);
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .color3 {
+      width: 48.8%;
+      background: linear-gradient(90deg, rgba(107, 203, 254, 1) 0%, rgba(31, 119, 208, 1) 100%);
+      color: rgba(255, 255, 255, 1);
+      margin-right: 0px;
+    }
+
+    .no_color {
+      background: #fff;
+      color: #333333;
+
+      .moduleTitle {
+        border-bottom: 1px solid rgba(201, 200, 200, 0.5);
+        padding-bottom: 8px;
+        font-size: 17px;
+      }
+
+      .moduleContent {
+        height: 246px;
+
+        .table_div {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: start;
+          overflow: hidden;
+
+          :global {
+
+            .ant-table-small {
+              border: none;
+            }
+          }
+
+          .table {
+            width: 100%;
+
+            td {
+              border: none;
+            }
+
+            th {
+              border: none;
+              background-color: #fff;
+              color: #B5B5B5 !important;
+              text-align: center;
+            }
+
+            .table_all_consult {
+              color: #507CF1
+            }
+
+            .starArr {
+              text-align: center;
+            }
+
+            .star {
+              color: #FFCC40;
+            }
+          }
+        }
+      }
+
+      .moduleContentMax {
+        height: 344px;
+        :global {
+            .ant-progress-text{
+                color:#507CF1;
+            }
+        }
+      }
+      .moduleContentMaxEmty{
+        height: 344px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+      }
+    }
+
+    .width1 {
+      width: calc(~"26.4% - 16px");
+    }
+
+    .width2 {
+      width: calc(~"24.8% - 16px");
+    }
+
+    .width3 {
+      width: 48.8%;
+    }
+
+    .widthMax_left {
+      width: calc(~"46% - 8px");
+    }
+
+    .widthMax_right {
+      width: calc(~"54% - 8px");
+    }
+
+    .bar {
+      border-right: 1px solid #fff;
+      height: 8px;
+    }
+  }
+}
+
+
+.no_data{
+    width: 100%;
+    font-size:15px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:21px;
+    text-align: center;
+}
+
+.no_data_left{
+    width: 200px;
+}
+.no_data_img2{
+    width: 90%;
+    position: absolute;
+}

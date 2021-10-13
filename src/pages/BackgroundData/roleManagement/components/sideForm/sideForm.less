@@ -1,0 +1,70 @@
+.sideForm {
+    height: 100%;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    .form_item{
+        margin-bottom: 5px;
+        padding: 0 48px 0 37px;
+        max-width: 630px;
+        position: relative;
+        .remark{
+            height: 60px;
+        }
+        input{
+            color: rgba(0,0,0,0.65);
+        }
+    }
+    .padding{
+        margin: 20px 0;
+    }
+    .content_div{
+        // height: calc( 100% - 65px );
+        height: 100%;
+        margin-bottom: 65px;
+        box-sizing: border-box;
+        padding-top:10px ;
+        box-sizing: border-box;
+        overflow-y: scroll;
+    }
+    .bottom_div{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid #EFEFEF;
+        display: flex;
+        height: 65px;
+        justify-content: flex-end;
+        align-items: center;
+        box-sizing: border-box;
+        padding-right: 20px;
+        z-index: 20;
+        .form_btn{
+            width: 105px;
+            height: 32px;
+            margin-left: 8px;
+        }
+        .ant-form-item,.form_item_bottom{
+            margin-bottom: 0;
+        }
+    }
+}
+.table_title_span{
+    display: inline-block;
+    margin-right: 4px;
+    color: #f5222d;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+}
+.table_title{
+    color:rgba(0, 0, 0, 0.85);
+}
+
+:global( .ant-tree .ant-tree-treenode-disabled > .ant-tree-node-content-wrapper .ant-tree-title) {
+    color: rgba(0, 0, 0, 0.65) ;
+}

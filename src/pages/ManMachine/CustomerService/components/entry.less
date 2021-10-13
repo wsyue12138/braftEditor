@@ -1,0 +1,129 @@
+.entryBox{
+    width:100%;
+    height:100%;
+    padding: 5px 20px;
+    overflow-y: auto;
+    .onceBox{
+        width:100%;
+        overflow: hidden;
+    }
+    .tipOnce{
+        width:100%;
+        color:#999999;
+        font-size: 12px;
+        text-align: center;
+        line-height: 20px;
+        padding: 10px 0 0 0;
+    }
+    .contentBox{
+        overflow: hidden;
+        .machineOnce{
+            float: right;
+            width:60%;
+            margin: 15px 0;
+            .avatar{
+                float:right;
+                width:35px;
+            }
+            .content{
+                margin-right: 50px;
+                overflow: hidden;
+                .txtContent{
+                    float: right;
+                    word-break:break-all;
+                    word-wrap:break-word;
+                    padding: 10px 20px;
+                    background: #EFEFEF;
+                    border-radius: 6px;
+                }
+                .picContent{
+                    float: right;
+                    word-break:break-all;
+                    word-wrap:break-word;
+                    padding: 15px 15px;
+                    background: #EFEFEF;
+                    border-radius: 6px;
+                    img{
+                        max-width: 100%;
+                        border-radius: 6px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .otherOnce{
+            float: left;
+            width:60%;
+            margin: 15px 0;
+            .avatar{
+                float:left;
+                width:35px;
+            }
+            .content{
+                margin-left: 50px;
+                overflow: hidden;
+                .txtContent{
+                    float: left;
+                    word-break:break-all;
+                    word-wrap:break-word;
+                    padding: 10px 20px;
+                    background: #F0F7FF;
+                    border-radius: 6px;
+                }
+                .picContent{
+                    float: left;
+                    word-break:break-all;
+                    word-wrap:break-word;
+                    padding: 15px 15px;
+                    background: #F0F7FF;
+                    border-radius: 6px;
+                    img{
+                        max-width: 100%;
+                        border-radius: 6px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .evaluateOnce{
+            float: right;
+            width:100%;
+            margin: 15px 0;
+            .avatar{
+                float:right;
+                width:35px;
+            }
+            .content{
+                margin-right: 50px;
+                overflow: hidden;
+                .txtContent{
+                    float: right;
+                    width:300px;
+                    max-width: 100%;
+                    background: #EFEFEF;
+                    border-radius: 6px;
+                    padding: 0 20px;
+                    p{
+                        width:100%;
+                        color:#333333;
+                        line-height: 45px;
+                        text-align: center;
+                        margin: 0;
+                        border-bottom: 1px solid #DBDBDB;
+                    }
+                    div{
+                        padding: 15px 0;
+                        text-align: center;
+                        :global{
+                            .ant-btn{
+                                padding: 0 10px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }    
+        }
+    }
+    
+}

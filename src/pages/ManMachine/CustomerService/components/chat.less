@@ -1,0 +1,55 @@
+.chatBox{
+    height:100%;
+    margin-left: 301px;
+    margin-right: 370px;
+    background: #fff;
+    .chatContent{
+        position: relative;
+        width:100%;
+        height:100%;
+        .handerBox{
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:60px;
+            border-bottom:1px solid #e8e8e8;
+            padding: 0 25px;
+            z-index: 500;
+            .userName{
+                float:left;
+                max-width: 50%;
+                height:100%;
+                color:#333333;
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 60px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .creatTime{
+                float:right;
+                height:100%;
+                color:#507CF1;
+                font-size: 14px;
+                line-height: 60px;
+            }
+        }
+        .content{
+            padding-top: 60px;
+            width:100%;
+            height:100%;
+            z-index: 520;
+            .chatModule{
+                width:100%;
+                height:68%;
+                border-bottom: 1px solid #e8e8e8;
+            }
+            .sendModule{
+                width:100%;
+                height:32%;
+            }
+        }
+    }
+}

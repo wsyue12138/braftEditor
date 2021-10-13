@@ -1,0 +1,78 @@
+.dimensionBox{
+    width:100%;
+    padding: 20px 40px;
+    .prefixColor{
+        color: #507CF1;
+        padding-right: 5px;
+    }
+    .addBtn{
+        color:#507CF1;
+        font-size: 12px;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+    .lineBox{
+        width:100%;
+        height:67px;
+        line-height:93px;
+        text-align: center;
+        span{
+            display: inline-block;
+            width:90%;
+            height:1px;
+            background: #979797;
+        }
+    }
+    .onceBox{
+        width:100%;
+    }
+    :global{
+        .ant-row{
+            width: 100%;
+            margin: 0;
+        }
+        .ant-form-item-with-help{
+            margin: 0!important;
+        }
+        .ant-form-item-label{
+            color:#333333;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 0;
+            padding: 0;
+        }
+        .ant-form-item-control{
+            line-height: 32px;
+        }
+    }
+    .parent{
+        :global{
+            .ant-form-item-label{
+                line-height: 35px;
+            }
+        }
+    }
+    .children{
+        :global{
+            .ant-input{
+                border:0;
+                border-bottom: 1px solid #d9d9d9;
+                border-radius: 0;
+            }
+        }
+    }
+    .item{
+        :global{
+            .ant-form-item-label{
+                width:23%;
+                line-height: 32px;
+            }
+            .ant-form-item-control-wrapper{
+                width:77%;
+            }
+        }
+       
+    }
+    
+}

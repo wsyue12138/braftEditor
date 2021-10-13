@@ -1,0 +1,148 @@
+.header-box{
+    .basic-header {
+        position:relative;
+        background:#fff;
+        padding: 0;
+        padding-right: 20px;
+        box-shadow: 0px 10px 11px -15px #507CF1;
+        z-index: 800;
+        .header-home-link {
+            display: inline-block;
+            height: 60px;
+            box-sizing: border-box;
+            padding: 0 20px;
+            color: #507CF1;;
+            font-size: 20px;
+            line-height: 60px;
+            font-weight:600; 
+            &:focus {
+                text-decoration: none;
+            }
+        }
+        .headerOnce{
+            float:right;
+            padding: 0 15px;
+            .header-function{
+                float:left;
+                .user-name {
+                    float: left;
+                    cursor:pointer;
+                    overflow: hidden;
+                }
+                .userLabel{
+                    position: relative;
+                    float: left;
+                    width: 30px;
+                    height: 30px;
+                    background: #DEE6FD;
+                    border-radius: 50%;
+                    margin-top: 16px;
+                    margin-right: 10px;
+                    .userLabelContent{
+                        position: absolute;
+                        left:7px;
+                        top:7px;
+                        font-size: 16px;
+                        color:#507CF1;
+                    }
+                }
+            }
+            .loginOut{
+                float: left;
+                width: 30px;
+                height: 30px;
+                color:#507CF1;
+                font-size: 12px;
+                line-height: 30px;
+                text-align: center;
+                background: #DEE6FD;
+                border-radius: 50%;
+                margin-top: 15px;
+                cursor:pointer;
+            }
+            .loginOut:hover{
+                color:#85a5ff;
+            }
+            .newsSign{
+                position: relative;
+                float: left;
+                width: 30px;
+                height: 30px;
+                background: #DEE6FD;
+                border-radius: 50%;
+                margin-top: 16px;
+                margin-right: 10px;
+                .newsSignContent{
+                    position: absolute;
+                    left:7px;
+                    top:7px;
+                    font-size: 16px;
+                    color:#507CF1;
+                }
+            }
+            .newsContent{
+                position: relative;
+                float:left;
+                cursor: pointer;
+                .newsNum{
+                    position: absolute;
+                    top:24%;
+                    right:-50%;
+                    height: 17px;
+                    min-width: 22px;
+                    color:#fff;
+                    font-size: 12px;
+                    line-height: 17px;
+                    text-align: center;
+                    display: block;
+                    padding: 0 5px;
+                    border-radius: 8px;
+                    background: #f5222d;
+                    cursor: pointer;
+                    z-index: 500;
+                    -moz-transform:scale(0.8,0.8);  
+                    -webkit-transform:scale(0.8,0.8);  
+                    -o-transform:scale(0.8,0.8);  
+                    transform:scale(0.8,0.8);  
+                }
+            }
+            .productContent{
+                div{
+                    float:left;
+                }
+                .changeProduct{
+                    color:#298BE1;
+                    font-size: 12px;
+                    cursor:pointer;
+                }
+                .changeProduct:hover{
+                    color:#85a5ff;
+                }
+                .label{
+                    color:#666666;
+                    font-size: 13px;
+                }
+                .product{
+                    color:#333333;
+                    padding-left: 8px;
+                }
+            }
+        }
+    }    
+    :global{
+        .ant-layout-header{
+            height: 60px;
+            line-height: 60px;
+        }
+    }
+}
+.headerDropdown{
+    top:45px!important;
+    :global{
+        .ant-dropdown-menu-item:hover{
+            color:#fff;
+            background: #507CF1;
+        }
+    }
+    
+}

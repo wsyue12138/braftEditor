@@ -1,0 +1,327 @@
+.noExpand {
+    :global{
+        .ant-table-row-expand-icon {
+            display: none;
+        }
+    }
+}
+.moreTxt{
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tableBox{
+    .regionName{
+        display: block;
+        width:'100%';
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .answerBtn{
+        color:#507CF1;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+    .answerBtn:hover{
+        color:#85a5ff;
+    }
+    .childContent{
+        position: relative;
+        width: 100%;
+        min-height: 56px;
+        .onceSplit{
+            position: absolute;
+            display: block;
+            top:-1px;
+            left:0;
+            width:100%;
+            height:1px;
+            background-color: #fff;
+            z-index: 20;
+        }
+        .onceSign{
+            position: relative;
+            float:left;
+            height: 100%;
+            min-height: 56px;
+            background-color: '#fff';
+            padding:12px 0 12px 30px;
+            .firstSign{
+               border:0!important;
+            }
+            div{
+                position: absolute;
+                top:-50%;
+                left:62px;
+                width:25px;
+                height: 100%;
+                border-left:2px dashed #507CF1;
+                border-bottom:2px dashed#507CF1;
+                z-index: 100;
+                span{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    display: block;
+                    height:70%;
+                    width:100%;
+                    border-left:2px dashed #507CF1;
+                    border-bottom:2px dashed#507CF1;
+                }
+            }
+        }
+        .onceBox{
+            position: relative;
+            width: 100%;
+            min-height: 56px;
+            .leftBox{
+                position:absolute;
+                left:0;
+                top:0;
+                width:1130px;
+                height:100%;
+            }
+            .rightBox{
+                position:absolute;
+                right:0;
+                top:0;
+                width:100px;
+                min-height: 56px;
+                line-height: 32px;
+                background-color: '#fff';
+                padding:12px 0 12px 30px;
+            }
+            .childOnce{
+                float:left;
+                height: 100%;
+                min-height: 56px;
+                line-height: 32px;
+                white-space: nowrap;
+                background-color: '#fff';
+                padding:12px 0 12px 30px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .onceBtnBox{
+                min-height: 56px;
+                line-height: 32px;
+                white-space: nowrap;
+                background-color: '#fff';
+                padding:12px 0 12px 30px;
+                margin: 0 105px 0 1130px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                .onceBtn{
+                    color:#507CF1;
+                    text-decoration:underline;
+                    margin-right: 15px;
+                    cursor: pointer;
+                }
+                .onceBtn:hover{
+                    color:#85a5ff;
+                }
+            }
+        }
+    }
+    :global{
+        .ant-table-expand-icon-th{
+            width:0;
+        }
+    }
+}
+
+.formModalItem{
+    :global{
+        .ant-form-item-control-wrapper{
+            width:100%;
+        }
+        .ant-form-item-with-help{
+            margin-bottom: 0!important;
+        }
+    }
+}
+
+.singleAdd{
+    width:100%;
+    padding: 20px 40px;
+    .answerOnceBox{
+        position: relative;
+        .deleteSimilar{
+            position: absolute;
+            left:-22px;
+            top:5px;
+            color:'#f5222d';
+            cursor: pointer;
+        }
+    }
+    .add{
+        display: block;
+        width:100px;
+        font-size: 12px;
+        color:#507CF1;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-bottom: 8px;
+    }
+    .answerTip{
+        position: absolute;
+        left: -20px;
+        top: 8px;
+        color:#ffc069;
+        cursor:pointer;
+        z-index: 200;
+    }
+    .deleteAnswer{
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        color:#f5222d;
+        cursor:pointer;
+        z-index: 200;
+    }
+    .regionBox{
+        position: relative;
+        width:100%;
+    }
+    .regionContent{
+        position: absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height: 21px;
+        padding-left: 60px;
+        z-index: 200;
+        ._tip{
+            position: absolute;
+            left: 60px;
+            top: 4px;
+            color:#ffc069
+        }
+        ._content{
+            display: inline-block;
+            max-width: 100%;
+            height: 21px;
+            color:#bfbfbf;
+            line-height: 21px;
+            white-space: nowrap;
+            padding-left: 25px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+    :global{
+        .ant-row{
+            width: 100%;
+            margin: 0 0 18px 0;
+        }
+        .ant-form-item-with-help{
+            margin: 0!important;
+        }
+        .ant-form-item-label{
+            color:#333333;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 13px;
+            padding: 0;
+        }
+        .ant-form-item-control{
+            line-height: 32px;
+        }
+    }
+}
+
+.relateQuestion{
+    min-width: 150px;
+    max-width: 300px;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.reasonBox{
+    width:100%;
+    padding: 20px 40px;
+    :global{
+        .ant-row{
+            width: 100%;
+            margin: 0 0 18px 0;
+        }
+        .ant-form-item-with-help{
+            margin: 0!important;
+        }
+        .ant-form-item-label{
+            color:#333333;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 13px;
+            padding: 0;
+        }
+        .ant-form-item-control{
+            line-height: 32px;
+        }
+    }
+}
+
+.singleSimilar{
+    width:100%;
+}
+
+.searchContent{
+    width:100%;
+    padding: 20px 30px;
+    .searchOnce{
+        padding-right:12px; 
+        :global{
+            .ant-form-inline .ant-form-item{
+                width:100%;
+            }
+            .ant-form-item-control-wrapper{
+                width:100%;
+            }
+        }
+    }
+    :global{
+        .ant-form-item-label{
+            color:#333333;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 32px;
+        }
+        .ant-form-item-control{
+            line-height: 32px;
+        }
+    }
+}
+.historyBox{
+    width:100%;
+    .onceBox{
+        width:100%;
+        color:#333333;
+        font-size: 12px;
+        padding: 0 30px 8px 30px;
+        border-bottom: 8px solid #F6F6F6;
+        .userContent{
+            width:320px;
+            border-bottom: 1px solid #D5D5D5;
+            margin-bottom: 8px;
+            span{
+                line-height: 42px;
+                padding: 0 5px;
+            }
+        }
+        .editContent{
+            width:100%;
+            .editOnce{
+                width:100%;
+                line-height: 24px;
+                word-break:break-all;
+                word-wrap:break-word;
+            }
+        }
+    }
+}
+

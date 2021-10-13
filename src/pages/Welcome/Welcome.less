@@ -1,0 +1,156 @@
+.welcomeBox{
+    width:100%;
+    height:100%;
+    .welcomeContent{
+        position: relative;
+        width:100%;
+        height:100%;
+        min-height: 720px;
+        padding-top: 360px;
+    }
+    .topContent{
+        position: absolute;
+        top:-35px;
+        left:0;
+        width:100%;
+        height:380px;
+        background: url('../../assets/welcome.png') no-repeat right;
+        background-size:cover;
+        div{
+            position: absolute;
+            top:120px;
+            left:90px;
+            span{
+                display:block;
+                font-size: 35px;
+                font-weight: bold;
+                color:#fff;
+            }
+            .dateContent{
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 25px;
+            }
+        }
+    }
+    .bottomContent{
+        width:100%;
+        height:100%;
+        background: #fff;
+        // margin-top: 20px;
+        padding: 0 120px;
+        .contentBox{
+            position: relative;
+            width:100%;
+            height:100%;
+            .changeBtn{
+                position: absolute;
+                top:50%;
+                width:36px;
+                height:80px;
+                border: 1px solid #ccc;
+                margin-top: -40px;
+                //transition: transform .3s cubic-bezier(.645,.045,.355,1),-webkit-transform .3s cubic-bezier(.645,.045,.355,1);
+            }
+            .content{
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                height: 295px;
+                margin-top: -148px;
+                .tabPane{
+                    background: red;
+                }
+                .onceBox{
+                    position: relative;
+                    width:230px;
+                    height:270px;
+                    -moz-box-shadow:0px 0px 14px -5px #7990CF;
+                    -webkit-box-shadow:0px 0px 14px -5px #7990CF;
+                    box-shadow:0px 0px 14px -5px #7990CF;
+                    border-radius: 6px;
+                    .signBox{
+                        position: absolute;
+                        top:0;
+                        left:0;
+                        width:100%;
+                        height:140px;
+                        text-align: center;
+                        padding: 20px 0 0 0;
+                        img{
+                            display: inline-block;
+                        }
+                    }
+                    .contentLabel{
+                        width:100%;
+                        height:100%;
+                        padding-top: 140px;
+                        p{
+                            width:100%;
+                            height:50px;
+                            color:#507CF1;
+                            font-size: 16px;
+                            font-weight: 600;
+                            text-align: center;
+                            line-height: 50px;
+                            margin: 0;
+                        }
+                        div{
+                            width:100%;
+                            height:80px;
+                            color:#898989;
+                            font-size: 13px;
+                            white-space: initial;
+                            overflow: hidden;
+                            padding: 5px 30px 0 30px;
+                        }
+                    }
+                }
+                .onceBox:hover{
+                    -moz-box-shadow:0px 0px 14px -2px #7990CF;
+                    -webkit-box-shadow:0px 0px 14px -2px #7990CF;
+                    box-shadow:0px 0px 14px -2px #7990CF;
+                }
+                .contentModule{
+                    width:100%;
+                    height: 100%;
+                    text-align: center;
+                    //padding-top: 87px;
+                    .contentList{
+                        display: inline-block;
+                        padding: 10px;
+                        overflow: hidden;
+                    }
+                    .onceBox{
+                        float: left;
+                        margin: 0 30px;
+                        cursor: pointer;
+                    }
+                }
+                :global{
+                    .ant-tabs-bar{
+                        border:0;
+                    }
+                    .ant-tabs-nav-container-scrolling{
+                        padding-right: 68px;
+                        padding-left: 68px;
+                    }
+                    .ant-tabs-tab-prev-icon-target{
+                        font-size: 50px;
+                    }
+                    .ant-tabs-tab-next-icon-target{
+                        font-size: 50px;
+                    }
+                    .ant-tabs-top .ant-tabs-ink-bar-animated, .ant-tabs-bottom .ant-tabs-ink-bar-animated{
+                        height:0;
+                    }
+                    .ant-tabs-nav .ant-tabs-tab{
+                        margin: 0 75px 0 0;
+                    }
+                }
+            }
+        }
+        
+    }
+}

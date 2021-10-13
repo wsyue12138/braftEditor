@@ -1,0 +1,42 @@
+.quickBox{
+    float:right;
+    width:350px;
+    height:100%;
+    background: #fff;
+    :global{
+        .ant-tabs{
+            position: relative;
+            height: 100%;
+        }
+        .ant-tabs-bar{
+            position: relative;
+            margin: 0;
+            z-index: 500;
+        }
+        .ant-tabs .ant-tabs-top-content.ant-tabs-content-animated, .ant-tabs .ant-tabs-bottom-content.ant-tabs-content-animated{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            height: 100%;
+            padding-top: 59px;
+            z-index: 200;
+        }
+        .ant-tabs-nav .ant-tabs-tab{
+            width:175px;
+            height:60px;
+            line-height:60px;
+            text-align: center;
+            margin: 0;
+            padding: 0 30px;
+        }
+        .ant-tabs-nav-container{
+            font-size: 15px;
+        }
+        .ant-tabs-nav .ant-tabs-tab-active{
+            color:#507CF1;
+        }
+        .ant-tabs-tab:hover{
+            color:#507CF1!important;
+        }
+    }
+}
